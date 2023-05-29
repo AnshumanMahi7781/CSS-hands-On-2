@@ -121,6 +121,9 @@ h1 {
     width: 100%;
     margin-bottom: 10px;
 }
+input{
+    text-align: center;
+}
 
 .Section {
     margin-top: 50px;
