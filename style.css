@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-width: 10px;
+    border-color: greenyellow;
+    border-style: groove;
+    background-image:url('./Bg-Image.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-Box {
+    border: 5px solid red;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+Section {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3em;
+    margin-top: 10px;
+}
+
+#Box-1 {
+
+    width: 295px;
+    height: 125px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2em;
+}
+
+#Box-2 {
+    width: 425px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    position: relative;
+    right: 175px;
+    bottom: 20px;
+}
+
+#Box-3 {
+    width: 350px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.circle {
+    width: 325px;
+    height: 325px;
+    border-radius: 50%;
+    border: 3px solid grey;
+    background-color: cadetblue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+
+hr {
+    width: 100%;
+}
+
+form {
+    background-color: white;
+    border: 7px dashed red;
+    color: rgb(240, 42, 42);
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.input-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Section {
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.MenuHeader {
+    width: 400px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: initial;
+    margin: 30px auto 10px auto;
+}
+
+
+.MenuSection {
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.Menu {
+    width: 350px;
+    border: 3px solid green;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: cyan;
+    color: darkblue;
+}
+
+.Menu p {
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 30px;
+    border-bottom: 2px solid grey;
+}
+
+ul {
+    margin: 30px;
+}
+
+ul li{
+    font-size:20px;
+}
