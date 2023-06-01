@@ -171,3 +171,7 @@ ul {
 ul li{
     font-size:20px;
 }
+
+.CommonWidth{
+    width: 175px;
+}
