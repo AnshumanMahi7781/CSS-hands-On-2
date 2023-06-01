@@ -76,7 +76,7 @@ Section {
     width: 325px;
     height: 325px;
     border-radius: 50%;
-    border: 3px solid grey;
+    border: 7px solid grey;
     background-color: cadetblue;
 
     display: flex;
