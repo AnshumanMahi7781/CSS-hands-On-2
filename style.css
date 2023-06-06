@@ -13,7 +13,7 @@ body {
     background-size: cover;
 }
 
-.item-Box {
+.Box {
     border: 5px solid red;
     border-radius: 30px;
     background-color: black;
@@ -113,7 +113,7 @@ h1 {
     font-weight: bolder;
 }
 
-.input-Box {
+.Input__Container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -121,6 +121,7 @@ h1 {
     width: 100%;
     margin-bottom: 10px;
 }
+
 input{
     text-align: center;
 }
@@ -130,7 +131,7 @@ input{
     justify-content: space-evenly;
 }
 
-.MenuHeader {
+.Menu__Header {
     width: 400px;
     padding: 15px;
     align-items: center;
@@ -140,12 +141,12 @@ input{
 }
 
 
-.MenuSection {
+.Menu__Section {
     flex-wrap: wrap;
     margin-bottom: 70px;
 }
 
-.Menu {
+.Box__Menu {
     width: 350px;
     border: 3px solid green;
     border-radius: 20px;
@@ -157,21 +158,21 @@ input{
     color: darkblue;
 }
 
-.Menu p {
+.Box__Menu p {
     font-size: 35px;
     font-weight: bolder;
     padding: 30px;
     border-bottom: 2px solid grey;
 }
 
-ul {
+.Box__Menu ul {
     margin: 30px;
 }
 
-ul li{
+.Box__Menu ul li{
     font-size:20px;
 }
 
-.CommonWidth{
+.Input__Width{
     width: 175px;
 }
